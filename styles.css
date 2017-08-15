@@ -1,6 +1,6 @@
 body {
   font-family: Helvetica, sans-serif;
-  background-color: #d0dff2;
+  background-color: rgb(0, 115, 112);
   margin: 0;
   padding: 40px;
 }
@@ -16,15 +16,18 @@ a {
   font-family: monospace;
 }
 
-.title {
+.title, .subtitle, .pledgetitle, .welcome {
   text-align: center;
 }
-
-.rounded {
-  border-radius: 50%;
-  width: 200px;
-  margin: 40px auto;
-  display: block;
+.title{
+  background-image: url("https://kajsarasten.files.wordpress.com/2014/04/feathers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  font-size: 200px;
+  color: rgb(96, 115, 112);
+}
 }
 
 #list-title {
