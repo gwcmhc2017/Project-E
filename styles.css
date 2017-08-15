@@ -22,11 +22,26 @@ a {
 
 .rounded {
   border-radius: 50%;
-  width: 200px;
   margin: 40px auto;
-  display: block;
+  width: 200px;
+  height: 200px;
 }
 
 #list-title {
   color: #37217a;
+}
+#sidebar {
+  background-color: #ffffff;
+  width: 200px;
+  /*height: 200px;*/
+  position: absolute;
+}
+
+#video {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  margin: -100px 0 0 -200px;
+  top: 50%;
+  left: 50%;
 }
