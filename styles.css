@@ -21,6 +21,16 @@ a {
   text-align: center;
   font-size: 30px;
 }
+
+.quiz {
+  font-size: 150px;
+  padding-top: 100px;
+  padding-right: 100px;
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
 .bigtitle{
   background-image: url("https://kajsarasten.files.wordpress.com/2014/04/feathers.jpg");
   background-size: cover;
@@ -51,7 +61,7 @@ padding-left: 98px;
 }
 #sidebar{
 display:block;
-width: 814px;
+width: 900px;
 margin: auto;
 
 }
