@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+    (confirm("I will agree to the I Can Pledge as shown below") === true)
 
 
       $("#femyes1").click(function() {
