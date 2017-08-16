@@ -7,6 +7,13 @@
 //       'You clicked the silly button ' + timesSillyButtonClicked + ' times!',
 //     );
 //   });
+(confirm("I will agree to the I Can Pledge as shown below") === true)
 
-  //write your code here!
-});
+
+
+
+
+
+//
+//   //write your code here!
+// });
