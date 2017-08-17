@@ -1,9 +1,12 @@
 body {
-  font-family: Helvetica, sans-serif;
+  font-family:   font-family: monospace, Courier;
   background-color: rgb(0, 115, 112);
   margin: 0;
   padding: 0px;
   color: #ffffe6
+}
+#everything{
+  display: none;
 }
 
 a {
@@ -14,12 +17,13 @@ a {
   background-color: #0d0d0d;
   color: #66ff33;
   padding: 2px;
-  font-family: monospace;
+  font-family: monospace, Courier;
 }
 
 .subtitle, .pledgetitle, .welcome {
   text-align: center;
   font-size: 30px;
+    font-family: monospace, Courier;
 }
 
 .quiz {
@@ -29,6 +33,7 @@ a {
   display: block;
   width: 50%;
   margin: auto;
+  font-family: serif, Garamond;
 
 }
 .bigtitle{
@@ -38,6 +43,7 @@ a {
   width: 100%;
   height: 300px;
   font-size: 90px;
+  font-family: monospace, Courier;
   color: #ffffe6;
 padding-top: 68px;
 padding-left: 98px;
@@ -49,19 +55,83 @@ padding-left: 98px;
   width: 200px;
   height: 200px;
 }
+.rounded:hover{
+  opacity: 0.3;
+  cursor: pointer;
+}
 
 #list-title {
   color: #37217a;
 }
 
-#video {
-  position: static;
+.title{
+text-align: center;
+  font-family: monospace, Courier;
+
+}
+
+.quiz {
+  font-size: 30px;
+    font-family: monospace, Courier;
+
+}
+
+.video{
+  display: block;
+  margin: auto;
+}
+
+#video-container {
+  padding-bottom: 50px;
+  border-width: thick;
+  border-color: black;
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+  display:block;
+  width: 900px;
+  margin: auto;
+  background: url("https://www.planetnatural.com/wp-content/uploads/2012/12/growing-california-poppy1.jpg") no-repeat;
+  background-size: cover;
+    font-family: monospace, Courier;
+  }
+
+
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+</style>
+/*#videobox{
+    float:left;
+}*/
+/*#video_overlays {
+position:absolute;
+float:left;
+    width:640px;
+    min-height:370px;
+    background-color:#000;
+    z-index:300000;
+}*/
+
 
   width: 400px;
 }
+
+
+}
 #sidebar{
 display:block;
-width: 900px;
+width: 500px;
 margin: auto;
 
 }
