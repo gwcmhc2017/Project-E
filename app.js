@@ -16,7 +16,6 @@ $(document).ready(function() {
 
 
 
-
       $("#femyes1").click(function() {
         console.log("hello")
      $("#result").text("Actually, most feminists don't have problems with men. The whole point of feminism is to promote equality between genders.");

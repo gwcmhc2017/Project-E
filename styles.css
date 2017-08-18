@@ -5,8 +5,29 @@ body {
   padding: 0px;
   color: #ffffe6
 }
+.confirm:hover{
+  opacity: 0.3;
+  cursor: pointer;
+}
+.confirm{
+  height: 200px;
+  width: 600px;
+  background-color: rgb(0, 115, 112);
+  border: none;
+  /*padding-left: 500px;*/
+}
+.tweet:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+.tweet{
+  padding-left: 0px;
+}
 #everything{
   display: none;
+}
+.pledge {
+  padding-left: 100px;
 }
 
 a {
